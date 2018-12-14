@@ -6,3 +6,6 @@ Library Asset Management Application
 ## Deployment
 
 > Deployed on pythonanywhere.com: http://ivanv257.pythonanywhere.com/
+
+## Authors
+Ivan van der Merwe - https://github.com/ivanv257
