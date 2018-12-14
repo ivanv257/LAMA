@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}New Books{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col align-self-center">
+      <form method="post" id="books">
+        <h4 class="h4 mb-3 font-weight-normal">New Books</h4>
+        <label for="barcode" class="sr-only">Barcode</label>
+        <input name="barcode" class="form-control" id="barcode" placeholder="Barcode" value="{{ request.form['barcode'] }}" required autocomplete="off"><br />
+        <label for="isbn" class="sr-only">ISBN</label>
+        <input name="isbn" id="isbn" placeholder="ISBN" class="form-control" value="{{ request.form['isbn'] }}" required autocomplete="off"><br />
+        <!-- <label for="invoice" class="sr-only">Invoice</label>
+        <input name="invoice" id="invoice" placeholder="Invoice" class="form-control" value="{{ request.form['invoice'] }}" required autocomplete="off"><br /> -->
+        <button class="btn btn-lg btn-outline-info btn-block" type="submit" value="Save">Save</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

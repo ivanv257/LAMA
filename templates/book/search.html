@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}Search Barcode{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col align-self-center">
+      <form method="post" id="books">
+        <h4 class="h4 mb-3 font-weight-normal">Search Barcode</h4>
+        <label for="barcode" class="sr-only">Barcode</label>
+        <input name="barcode" class="form-control" id="barcode" placeholder="Barcode" value="{{ request.form['barcode'] }}" required autocomplete="off"><br />
+        
+        <button class="btn btn-lg btn-outline-info btn-block" type="submit" value="Save">Search</button>
+        <button id="delete" class="btn btn-lg btn-outline-danger btn-block" type="submit" value="delete" disabled>Delete</button>
+    </form>
+    </div>
+  </div>
+</div>
+
+<script>
+    // let button = document.getElementById("delete");
+    // button.onsubmit = () => {
+    //   let userConfirm = prompt("Are you sure you wish to delete this barcode? (Y/N):").toUpperCase();
+    //   if (userConfirm == 'N') {
+    //     window.alert('Barcode not deleted')
+    //     return false;
+    //   }
+    //   window.alert('Barcode deleted')
+    //   return true;
+    // }
+</script>
+{% endblock %}

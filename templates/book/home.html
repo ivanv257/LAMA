@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<div class="my-3 p-3 bg-white rounded shadow-sm">
+  <h6 class="border-bottom border-gray pb-2 mb-0">Shelf Readiness</h6>
+  <div class="media text-muted pt-3">
+    <a href="{{ url_for('book.newbook') }}"><img src="https://img.icons8.com/nolan/64/000000/literature.png" alt="32x32"
+        class="mr-2 rounded" style="width: 32px; height: 32px;"></a>
+    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+      <strong class="d-block text-gray-dark">New Books</strong>
+      Record new books
+    </p>
+  </div>
+  <div class="media text-muted pt-3">
+    <a href="{{ url_for('book.selectLib') }}"><img src="https://img.icons8.com/nolan/64/000000/checked-2.png" alt="32x32" class="mr-2 rounded" style="width: 32px; height: 32px;"></a>
+    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+      <strong class="d-block text-gray-dark">Quality Assurance</strong>
+      Shelf readiness
+    </p>
+  </div>
+  <div class="media text-muted pt-3">
+    <a href="#"><img src="https://img.icons8.com/nolan/64/000000/cardboard-box.png" alt="32x32" class="mr-2 rounded"
+        style="width: 32px; height: 32px;"></a>
+    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+      <strong class="d-block text-gray-dark">Delivery Notes</strong>
+      Review, print delivery notes
+    </p>
+  </div>
+  <div class="media text-muted pt-3">
+    <a href="#"><img src="https://img.icons8.com/nolan/50/000000/inspection.png" alt="32x32" class="mr-2 rounded"
+        style="width: 32px; height: 32px;"></a>
+    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+      <strong class="d-block text-gray-dark">Dispatched Books</strong>
+      Update and confirm dispatched books for progress.
+    </p>
+  </div>
+</div>
+
+<!--OTHER LIBRARY TOOLS SECTION-->
+<div class="my-3 p-3 bg-white rounded shadow-sm">
+  <h6 class="border-bottom border-gray pb-2 mb-0">Tools</h6>
+  <div class="media text-muted pt-3">
+    <a href="{{ url_for('book.search') }}"><img src="https://img.icons8.com/nolan/64/000000/search.png" alt="32x32" class="mr-2 rounded"
+        style="width: 32px; height: 32px;"></a>
+    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+      <strong class="d-block text-gray-dark">Search Barcode</strong>
+      Find, Edit and Delete barcodes 
+    </p>
+  </div>
+  <div class="media text-muted pt-3">
+    <a href="{{ url_for('book.converter') }}"><img src="https://img.icons8.com/nolan/50/000000/merge-files.png" alt="32x32" class="mr-2 rounded"
+        style="width: 32px; height: 32px;"></a>
+    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+      <strong class="d-block text-gray-dark">ISBN Converter</strong>
+      Convert 13 and 10 digit ISBNs
+    </p>
+  </div>
+</div>
+
+<!--Administration Panel-->
+<div class="my-3 p-3 bg-white rounded shadow-sm">
+  <h6 class="border-bottom border-gray pb-2 mb-0">Admin Dashboard</h6>
+  <div class="media text-muted pt-3">
+    <a href="#"><img src="https://img.icons8.com/nolan/64/000000/system-task.png" alt="32x32" class="mr-2 rounded"
+        style="width: 32px; height: 32px;"></a>
+    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+      <strong class="d-block text-gray-dark">Settings</strong>
+      Maintenance
+    </p>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Library Landing Page">
+  <meta name="author" content="Ivan van der Merwe" />
+  <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='faviconLAMA.png') }}"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" >
+  <link rel="stylesheet" href="{{ url_for('static', filename='landing.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" >
+  <title>LAMA</title>
+</head>
+
+<body>
+  <a href="{{ url_for('auth.login') }}">
+  <header class="showcase">
+    <div class="content">
+      <img src="/static/lamalogo.png" class="logo" alt="LAMA">
+      <div class="title">
+        LAMA
+      </div>
+      <div class="text">
+        <p>
+          Library Asset Management Application
+        </p>
+      </div>
+    </div>
+  </header>
+  </a>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>

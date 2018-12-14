@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}ISBN Converter{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col align-self-center">
+      <form method="post" id="books">
+        <h4 class="h4 mb-3 font-weight-normal">Converter</h4>
+        <label for="ISBN-13" class="sr-only">13-ISBN</label>
+        <input name="ISBN-13" class="form-control" id="ISBN-13" placeholder="ISBN-13" value="{{ request.form['ISBN-13'] }}" autocomplete="off"><br />
+
+        <label for="ISBN-10" class="sr-only">10-ISBN</label>
+        <input name="ISBN-10" class="form-control" id="ISBN-10" placeholder="ISBN-10" value="{{ request.form['ISBN-10'] }}" autocomplete="off"><br />
+
+        <button class="btn btn-lg btn-outline-info btn-block" type="submit" value="Save">Submit</button>
+        
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+{% endblock %}

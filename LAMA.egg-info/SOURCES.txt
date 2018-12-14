@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+LAMA.egg-info/PKG-INFO
+LAMA.egg-info/SOURCES.txt
+LAMA.egg-info/dependency_links.txt
+LAMA.egg-info/not-zip-safe
+LAMA.egg-info/requires.txt
+LAMA.egg-info/top_level.txt

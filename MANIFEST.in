@@ -1,0 +1,4 @@
+include LAMA/schema.sql
+graft LAMA/static
+graft LAMA/templates
+global-exclude *.pyc

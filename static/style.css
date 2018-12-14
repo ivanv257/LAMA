@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*, ::after, ::before {
+    box-sizing: border-box; }
+
+#logIn {
+    margin-top: 5%;
+}
+
+
+h4 {
+    display: inline-block; 
+}
+
+#newbookbutton {
+    width: 100%;
+    /* text-align: left; */
+}
+
+.addanddelete {
+    text-decoration: none;
+    color: rgb(255, 255, 255)!important;
+}
+
+.addanddelete:hover{
+    text-decoration: none;
+
+}
+
+.deletebutton{
+    text-decoration: none;
+    color: rgb(42, 144, 170)!important;
+}
+
+.deletebutton:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255)!important;
+}
+
+
+.container {
+    margin-top: 5%;
+}
+
+#lefttitle {
+    text-decoration: none;
+    color: black!important;
+}
+
+#lefttitle {
+    text-decoration: none!important;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin input[type="password"]{
+    margin-bottom: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="confirmPass"]{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin input[name="username"]{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[name="email"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+

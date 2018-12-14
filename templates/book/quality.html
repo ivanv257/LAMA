@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Quality Assurance{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col align-self-center">
+      <form method="post" id="books">
+        <h4 class="h4 mb-3 font-weight-normal">Quality Assurance</h4>
+        <label for="barcode" class="sr-only">Barcode</label>
+        <input name="barcode" class="form-control" id="barcode" placeholder="Barcode" value="{{ request.form['barcode'] }}" required autocomplete="off"><br />
+      
+        <button class="btn btn-lg btn-outline-info btn-block" type="submit" value="Save">Save</button>
+        
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+{% endblock %}
