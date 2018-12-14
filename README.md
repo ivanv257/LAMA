@@ -5,4 +5,4 @@ Library Asset Management Application
 
 ## Deployment
 
-Deployed on pythonanywhere.com: http://ivanv257.pythonanywhere.com/
+> Deployed on pythonanywhere.com: http://ivanv257.pythonanywhere.com/
