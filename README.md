@@ -9,3 +9,6 @@ Library Asset Management Application
 
 ## Authors
  **Ivan van der Merwe** - https://github.com/ivanv257
+
+## Acknowledgments
+* ISBNLIB for the use of ISBN validation and search functions : https://github.com/xlcnd/isbnlib
