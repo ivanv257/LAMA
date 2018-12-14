@@ -8,4 +8,4 @@ Library Asset Management Application
 > Deployed on pythonanywhere.com: http://ivanv257.pythonanywhere.com/
 
 ## Authors
-> Ivan van der Merwe - https://github.com/ivanv257
+> **Ivan van der Merwe** - https://github.com/ivanv257
