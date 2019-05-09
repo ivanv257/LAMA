@@ -1,5 +1,5 @@
 # LAMA
-Library Asset Management Application
+Library Asset Management Application (Python & Flask)
 
 > Application for managing new acquisitions and donations of library books within a public library environment.
 
